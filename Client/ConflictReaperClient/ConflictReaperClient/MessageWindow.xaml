@@ -1,0 +1,14 @@
+﻿<Window x:Class="ConflictReaperClient.MessageWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ConflictReaperClient"
+        mc:Ignorable="d"
+        Title="ConflictReaper" Height="100" Width="300" WindowStartupLocation="CenterOwner" WindowStyle="None" Topmost="True">
+    <Grid>
+        <WrapPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Label x:Name="messageBox" Content="" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" />
+        </WrapPanel>
+    </Grid>
+</Window>
